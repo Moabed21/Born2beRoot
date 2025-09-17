@@ -1,6 +1,6 @@
-This guide summarizes the configuration of your Debian server, following the requirements of the Born2beRoot project.
+# This guide summarizes the configuration of your Debian server, following the requirements of the Born2beRoot project.
 
-Chapter 1: Initial Server Setup & Debian Installation
+<h2>Chapter 1:Initial Server Setup & Debian Installation </h2>
 
 Goal: Install a minimal, command-line-only Debian server with a secure and flexible disk layout.
 
@@ -38,7 +38,7 @@ SELECT the SSH server and standard system utilities.
 
 First Boot: After installation, the system was booted. We successfully unlocked the encrypted disk by entering the passphrase and logged in for the first time as the normal user (moabed).
 
-Chapter 2: Server Hardening & Configuration
+<h2>Chapter 2: Server Hardening & Configuration</h2>
 
 Goal: Secure the server by configuring users, passwords, network access, and a firewall.
 
@@ -92,7 +92,7 @@ We added our user to this new group (sudo usermod -aG user42 moabed).
 
 We verified the correct group membership using the groups command.
 
-Chapter 3: Current Status: Building monitoring.sh
+<h2>Chapter 3: Current Status: Building monitoring.sh</h2>
 
 Goal: Write a script to display system statistics.
 
